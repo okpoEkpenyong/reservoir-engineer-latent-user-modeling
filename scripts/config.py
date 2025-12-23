@@ -68,6 +68,4 @@ def setup_hf_cache():
     os.environ["HF_DATASETS_CACHE"] = str(cache_root / "datasets")
     
     return cache_root
-
-# Run it immediately to switch paths
-# new_cache_dir = setup_hf_cache_fixed()   
+  
